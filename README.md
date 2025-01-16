@@ -53,6 +53,7 @@ Este archivo de configuración de Docker se utiliza para crear una imagen de Doc
 * **HTTP:** Protocolo de comunicación utilizado para transferir datos a través de una red.
 * **Docker:** Plataforma de contenedores para empaquetar aplicaciones y sus dependencias.
 * **PostgreSQL:** Sistema de gestión de bases de datos relacionales de código abierto.
+* **Railway:** Plataforma para desplegar aplicaciones de forma rápida y sencilla.
 
 ## Demostración
 ¡La aplicación ya está desplegada en Railway y puedes probarla ahora mismo!
