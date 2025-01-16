@@ -41,6 +41,14 @@ La clase `ApirestApplication` es el punto de entrada de la aplicación Spring Bo
 * **`@SpringBootApplication`:** Anotación que habilita funcionalidades de Spring Boot de forma automática.
 * **`public static void main(String[] args) { SpringApplication.run(ApirestApplication.class, args); }`:** Método principal que inicia la aplicación Spring Boot.
 
+## Tecnologías Utilizadas
+* **Spring Boot:** Framework Java para desarrollo de aplicaciones web de manera rápida y sencilla.
+* **Spring MVC:** Módulo de Spring para crear aplicaciones web MVC.
+* **JPA (Java Persistence API):** API para la persistencia de objetos Java en bases de datos relacionales.
+* **Hibernate:** Implementación de referencia de JPA.
+* **JSON:** Formato de intercambio de datos utilizado para transmitir información entre el cliente y el servidor.
+* **HTTP:** Protocolo de comunicación utilizado para transferir datos a través de una red.
+
 ## Ejecutar la aplicación
 
 1. Asegúrate de tener Maven instalado.
@@ -52,9 +60,4 @@ La clase `ApirestApplication` es el punto de entrada de la aplicación Spring Bo
 
 Este código implementa una API REST básica para gestionar productos utilizando Spring Boot y JPA. El controlador proporciona métodos para consultar, crear, actualizar y eliminar productos. La aplicación se inicia mediante la clase `ApirestApplication`.
 
-## Consideraciones adicionales
 
-* **Dependencias:** Este código asume que las dependencias necesarias para Spring Boot y JPA están configuradas en el pom.xml del proyecto.
-* **Base de datos:** La aplicación necesita una base de datos configurada para persistir los datos de los productos.
-
-Este documento proporciona una descripción general de la aplicación Spring Boot para la API REST de productos. Puedes consultarlo como referencia para comprender la estructura del proyecto y cómo funciona la interacción entre las clases para gestionar productos a través de una API REST.
