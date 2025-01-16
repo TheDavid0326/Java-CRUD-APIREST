@@ -41,6 +41,9 @@ La clase `ApirestApplication` es el punto de entrada de la aplicación Spring Bo
 * **`@SpringBootApplication`:** Anotación que habilita funcionalidades de Spring Boot de forma automática.
 * **`public static void main(String[] args) { SpringApplication.run(ApirestApplication.class, args); }`:** Método principal que inicia la aplicación Spring Boot.
 
+## Configuración de PostgreSQL en Docker (docker-compose.yml)
+Este archivo de configuración de Docker se utiliza para crear una imagen de Docker que contenga una instancia de PostgreSQL. Esta imagen está diseñada específicamente para servir como base de datos para la API.
+
 ## Tecnologías Utilizadas
 * **Spring Boot:** Framework Java para desarrollo de aplicaciones web de manera rápida y sencilla.
 * **Spring MVC:** Módulo de Spring para crear aplicaciones web MVC.
@@ -48,6 +51,8 @@ La clase `ApirestApplication` es el punto de entrada de la aplicación Spring Bo
 * **Hibernate:** Implementación de referencia de JPA.
 * **JSON:** Formato de intercambio de datos utilizado para transmitir información entre el cliente y el servidor.
 * **HTTP:** Protocolo de comunicación utilizado para transferir datos a través de una red.
+* **Docker:** Plataforma de contenedores para empaquetar aplicaciones y sus dependencias.
+* **PostgreSQL:** Sistema de gestión de bases de datos relacionales de código abierto.
 
 ## Ejecutar la aplicación
 
