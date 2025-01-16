@@ -60,11 +60,11 @@ Este archivo de configuración de Docker se utiliza para crear una imagen de Doc
 [Aplicación Spring Boot para API REST de Productos] (https://javarailwaycrudapirest-production.up.railway.app/products)
 
 ## Endpoints de la API
-**GET /products:** Obtiene una lista de todos los productos.
-**GET /products/{id}:** Obtiene un producto específico por su ID.
-**POST /products:** Crea un nuevo producto.   
-**PUT /products/{id}:** Actualiza un producto existente.   
-**DELETE /products/{id}:** Elimina un producto.
+* **GET /products:** Obtiene una lista de todos los productos.
+* **GET /products/{id}:** Obtiene un producto específico por su ID.
+* **POST /products:** Crea un nuevo producto.   
+* **PUT /products/{id}:** Actualiza un producto existente.   
+* **DELETE /products/{id}:** Elimina un producto.
 
 ## Resumen
 
