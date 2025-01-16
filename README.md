@@ -54,12 +54,16 @@ Este archivo de configuración de Docker se utiliza para crear una imagen de Doc
 * **Docker:** Plataforma de contenedores para empaquetar aplicaciones y sus dependencias.
 * **PostgreSQL:** Sistema de gestión de bases de datos relacionales de código abierto.
 
-## Ejecutar la aplicación
+## Demostración
+¡La aplicación ya está desplegada en Railway y puedes probarla ahora mismo!
+[Aplicación Spring Boot para API REST de Productos] (https://javarailwaycrudapirest-production.up.railway.app/products)
 
-1. Asegúrate de tener Maven instalado.
-2. Abre un terminal en la ubicación del proyecto.
-3. Ejecuta el comando `mvn clean install` para compilar el proyecto.
-4. Ejecuta el comando `mvn spring-boot:run` para iniciar la aplicación.
+## Endpoints de la API
+**GET /products:** Obtiene una lista de todos los productos.
+**GET /products/{id}:** Obtiene un producto específico por su ID.
+**POST /products:** Crea un nuevo producto.   
+**PUT /products/{id}:** Actualiza un producto existente.   
+**DELETE /products/{id}:** Elimina un producto.
 
 ## Resumen
 
