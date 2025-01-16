@@ -57,7 +57,7 @@ Este archivo de configuración de Docker se utiliza para crear una imagen de Doc
 
 ## Demostración
 ¡La aplicación ya está desplegada en Railway y puedes probarla ahora mismo!
-[Aplicación Spring Boot para API REST de Productos] (https://javarailwaycrudapirest-production.up.railway.app/products)
+[Aplicación Spring Boot para API REST de Productos](https://javarailwaycrudapirest-production.up.railway.app/products)
 
 ## Endpoints de la API
 * **GET /products:** Obtiene una lista de todos los productos.
